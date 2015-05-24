@@ -6,18 +6,28 @@
 
 #banner
   overflow auto
+  position relative
   #site-title
-  #site-subtitle
+  #site-description
     display inline-block
     vertical-align middle
   #site-title
     font-size 3rem
     font-weight lighter
     margin-right 1.5rem
+    a
+      color special-text-color
   #site-subtitle
-    padding-left 1.5rem
+    position absolute
+    //left and top are ludicrously hardcode, please update later
+    //as this might break when blog subtitle changes width
+    left 55px
+    top 90px
+    margin 0
     /*border-left thin solid dimgray*/
     font-size small
+  #site-description
+    padding-left 1.5rem
 
 #content
   text-autospace ideograph-alpha

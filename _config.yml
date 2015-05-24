@@ -3,8 +3,8 @@ menu:
   archives: /archives
 
 excerpt: true
-feed: /atom.xml
-repo: https://icylogic.net
+feed: '/atom.xml'
+repo: 'https://github.com/alexserver/carbon'
 
 duoshuo: false
 mathjax: true
@@ -16,4 +16,4 @@ cdn:
   jQuery: '//dn-staticfile.qbox.me'
   pjax: '//dn-staticfile.qbox.me'    
   mathjax: '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
-  
+
