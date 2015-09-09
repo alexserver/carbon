@@ -1,7 +1,21 @@
-h1#site-title
-  a(href=config.root)
-    = config.title
-p#site-subtitle
-  = config.subtitle
-p#site-description
-  = config.description
+div.table-cell
+  h1#site-title
+    a(href=config.root)
+      = config.title
+  p#site-subtitle
+    = config.subtitle
+div.table-cell
+  p#site-description
+    = config.description
+if config.social
+  div.table-cell.text-right
+    ul#social-links
+      if config.social.github
+        li
+          a(href=config.social.github) github
+      if config.social.twitter
+        li
+          a(href=config.social.twitter) twitter
+      if config.social.linkedin
+        li
+          a(href=config.social.linkedin) linked.in

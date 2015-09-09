@@ -7,11 +7,15 @@
 #banner
   overflow auto
   position relative
+  display table
+  width 100%
   #site-title
   #site-description
+  #social-links
     display inline-block
-    vertical-align middle
+    vertical-align baseline
   #site-title
+    // vertical-align middle
     font-size 3rem
     font-weight lighter
     margin-right 1.5rem
@@ -27,7 +31,24 @@
     /*border-left thin solid dimgray*/
     font-size small
   #site-description
-    padding-left 1.5rem
+    padding 5px 7px
+    background-color dark-green
+    color #ffffff
+    font-style italic
+  #social-links
+    list-style none
+    color #ffffff
+    padding 0
+    li
+      display inline-block
+      padding 5px
+      background-color link-background-color-inverted
+      a
+        color link-color-inverted
+        padding 2px 7px
+        &:hover
+          color link-hover-color-inverted
+          background-color link-hover-background-color-inverted
 
 #content
   text-autospace ideograph-alpha
@@ -35,6 +56,8 @@
     .article-title
       font-weight lighter
       margin-bottom 0
+      a
+        color manly-pink
     .article-date
       color darkgray
 
@@ -108,3 +131,11 @@
     word-break-cjk break-word
     width 1rem
     letter-spacing 1rem
+
+// Generic Classes
+.table-cell
+  display table-cell
+.text-right
+  text-align right
+.text-center
+  text-align center
