@@ -5,7 +5,7 @@ Carbon is a simple theme using pjax for elegant loading.
 ![Screenshot](https://github.com/icylogic/site/raw/master/source/themes/screenshots/carbon.png)
 ![Screenshot](https://dn-icylogic.qbox.me/img/carbon.gif)
 
-[Demo](http://icylogic.github.io/carbon/)
+[Demo](http://alexserver.me)
 
 ## Setup
 

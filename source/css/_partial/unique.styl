@@ -16,12 +16,15 @@
     vertical-align baseline
   #site-title
     // vertical-align middle
+    font-family font-web-eloquent
     font-size 3rem
-    font-weight lighter
+    font-weight 100
     margin-right 1.5rem
     a
       color special-text-color
   #site-subtitle
+    font-family font-web-eloquent
+    font-weight 200
     position absolute
     //left and top are ludicrously hardcode, please update later
     //as this might break when blog subtitle changes width
@@ -31,11 +34,15 @@
     /*border-left thin solid dimgray*/
     font-size small
   #site-description
-    padding 5px 7px
+    font-family font-web-minimal
+    font-weight 200
+    padding 5px
     background-color dark-green
     color #ffffff
     font-style italic
   #social-links
+    font-family font-web-minimal
+    font-weight 200
     list-style none
     color #ffffff
     padding 0
@@ -45,7 +52,7 @@
       background-color link-background-color-inverted
       a
         color link-color-inverted
-        padding 2px 7px
+        padding 2px 5px
         &:hover
           color link-hover-color-inverted
           background-color link-hover-background-color-inverted
@@ -95,7 +102,7 @@
       img
         margin-left -0.3rem
     p
-      font-weight 200
+      font-weight 300
 
   figure.highlight
     margin-right 0
