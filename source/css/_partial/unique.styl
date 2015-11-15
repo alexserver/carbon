@@ -108,16 +108,23 @@
     margin-right 0
     margin-left 0
 
-  nav
+  nav.pagination
+    padding 5px
+    position relative
+    overflow hidden
     clear: both
     text-align center
-
+    // Anchors within the footer nav bar
+    a
+      color link-color
+      padding 3px
+      max-width 40%
+      &:hover
+        color link-color-inverted
+        background-color link-background-color-inverted
     #left-navigator
-      max-width 40%
       float left
-
     #right-navigator
-      max-width 40%
       float right
 
 //footer
